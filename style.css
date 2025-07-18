@@ -1,5 +1,5 @@
 /* Estilos gerais para a página */
-body {
+body.tema-claro {
     font-family: sans-serif;
     background-color: #f0f2f5;
     color: #333;
@@ -8,6 +8,27 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
+}
+
+body.tema-dark{
+    font-family: sans-serif;
+    background-color: #000000;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container.tema-dark {
+    background-color: #3f3d3d;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(180, 178, 178, 0.293);
+    text-align: center;
+    width: 90%;
+    max-width: 600px;
 }
 
 /* O contêiner principal que centraliza nosso conteúdo */
@@ -57,3 +78,23 @@ p {
     border-color: #a154db;
     color: #333;
 }
+
+#btnMudarTema{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 6px;
+    background-color: #d19ef5;
+    border-color: #a154db;
+    color: #333;
+}
+
+#btnBotaoSalvar{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 6px;
+    background-color: #d19ef5;
+    border-color: #a154db;
+    color: #333;
+}
+
+/* Botão alterar para tema noturno */
